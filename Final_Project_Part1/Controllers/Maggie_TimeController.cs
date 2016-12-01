@@ -17,7 +17,7 @@ namespace Final_Project_Part1.Controllers
         // GET: Maggie_Time
         public ActionResult Index()
         {
-            return View(db.Maggie_Time.ToList());
+            return View(db.Maggie_Time.ToList()); 
         }
 
         // GET: Maggie_Time/Details/5
